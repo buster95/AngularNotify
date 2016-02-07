@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="myapp">
+<head>
+	<meta charset="UTF-8">
+	<title>Ejemplo de Notifaciones COn AngularJS</title>
+</head>
+<body>
+
+<div ng-controller="ctrlprincipal">
+	<button type="button" ng-click="click()">Notificar</button>
+</div>
+
+<!-- IMPORTANTE AÑADIR JQUERY -->
+<script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="angular/angular.min.js"></script>
+<script type="text/javascript" src="angular/angular-notify.js"></script>
+
+<script type="text/javascript" >
+	var apli = angular.module('myapp', ['ngNotify']);
+	apli.controller('ctrlprincipal', function($scope, $notify){
+		$scope.click = function () {
+			$notify.success('Notificacion','Esto es Angular-Notify');
+		}
+	});
+</script>
+
+</body>
+</html>
