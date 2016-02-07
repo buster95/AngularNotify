@@ -5,8 +5,8 @@ AngularNotify Module
 * jQuery 1.10 or Higher
 
 ### USO DE ESTE MODULO ###
-`Module Name and Service Name`
-`Nombre del modulo y del Servicio`
+>Module Name and Service Name
+>Nombre del modulo y del Servicio
 
 ```
 angular.module('myapp',['ngNotify'])
