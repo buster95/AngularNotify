@@ -14,5 +14,5 @@ controller('ctrlmain', function($scope, $notify){
 	$notify.info('title','message');
 	$notify.warning('title','message');
 	$notify.error('title','message');
-})
+});
 ´´´
