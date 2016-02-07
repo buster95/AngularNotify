@@ -12,7 +12,7 @@ Nombre del modulo y del Servicio
 ```
 
 ```JavaScript
-angular.module('myapp',['ngNotify'])
+angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
 	$scope.click = function(){
 		$notify.success('title','message');
