@@ -50,7 +50,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 
-setTimeExtend
+* setTimeExtend
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
@@ -61,7 +61,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 
-showCloseButton
+* showCloseButton
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
@@ -72,7 +72,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 
-showProgressBar
+* showProgressBar
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
@@ -83,7 +83,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 
-onclick
+* onclick
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
