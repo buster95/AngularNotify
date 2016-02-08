@@ -3,15 +3,19 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Ejemplo de Notifaciones COn AngularJS</title>
+
+	<link rel="stylesheet" href="bootstrap/bootstrap.css">
 </head>
 <body>
 
-<div ng-controller="ctrlprincipal">
-	<button type="button" ng-click="click()">Notificar</button>
+<div class="container" ng-controller="ctrlprincipal">
+	<br><br>
+	<button type="button" class="btn btn-primary" ng-click="click()">Notificar</button>
 </div>
 
 <!-- IMPORTANTE AÑADIR JQUERY -->
 <script type="text/javascript" src="jquery-1.11.3.min.js"></script>
+<script type="text/javascript" src="bootstrap/bootstrap.js"></script>
 <script type="text/javascript" src="angular/angular.min.js"></script>
 <script type="text/javascript" src="angular/angular-notify.js"></script>
 
@@ -19,7 +23,8 @@
 	var apli = angular.module('myapp', ['ngNotify']);
 	apli.controller('ctrlprincipal', function($scope, $notify){
 		$scope.click = function () {
-			$notify.success('Notificacion','Esto es Angular-Notify');
+			$notify.setTime(10).setPosition('bottom-right').showCloseButton(true).showProgressBar(true);
+			$notify.error('Notificacion','Esto es Angular-Notify');
 		}
 	});
 </script>
