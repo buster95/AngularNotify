@@ -24,7 +24,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 ### METODOS ###
-*setPosition
+* setPosition
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
@@ -39,7 +39,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 
-*setTime
+* setTime
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
