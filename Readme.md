@@ -24,7 +24,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 ### METODOS ###
-* setPosition
+* **setPosition**
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
@@ -32,6 +32,7 @@ controller('ctrlmain', function($scope, $notify){
 
 		// bottom-left, bottom-center, bottom-right
 		// top-left, top-center, bottom-right
+		// bottom-full-width, top-full-width
 		$notify.setPosition('bottom-left');
 
 		$notify.success('title','message');
@@ -39,7 +40,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 
-* setTime
+* **setTime**
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
@@ -50,7 +51,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 
-* setTimeExtend
+* **setTimeExtend**
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
@@ -61,7 +62,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 
-* showCloseButton
+* **showCloseButton**
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
@@ -72,7 +73,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 
-* showProgressBar
+* **showProgressBar**
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){
@@ -83,7 +84,7 @@ controller('ctrlmain', function($scope, $notify){
 });
 ```
 
-* onclick
+* **onclick**
 ```javascript
 angular.module('myapp',['ngNotify']).
 controller('ctrlmain', function($scope, $notify){

@@ -23,7 +23,8 @@
 	var apli = angular.module('myapp', ['ngNotify']);
 	apli.controller('ctrlprincipal', function($scope, $notify){
 		$scope.click = function () {
-			$notify.setTime(10).setPosition('bottom-right').showCloseButton(true).showProgressBar(true);
+			$notify.setTime(5).setPosition('bottom-right').showCloseButton(true).showProgressBar(true);
+			$notify.setPosition('bottom-left');
 			$notify.error('Notificacion','Esto es Angular-Notify');
 		}
 	});
