@@ -5,9 +5,9 @@ AngularNotify Module
 * jQuery 1.10 or Higher
 
 ### USO DE ESTE MODULO ###
-**Modulo** `ngStorage`
+**Modulo** `ngNotify`
 
-**Servicio** `$storage`
+**Servicio** `$notify`
 
 ```html
 <button type="button" ng-click="click()">Notify</button>
